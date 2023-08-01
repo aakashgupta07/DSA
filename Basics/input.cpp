@@ -5,5 +5,5 @@ int main()
     cout << "Enter a number" << endl;
     int a;
     cin >> a;
-    cout << "Entered number is " << a << endl;
+    cout << "The entered number is " << a << endl;
 }
