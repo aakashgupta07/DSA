@@ -2,7 +2,11 @@
 using namespace std;
 int main()
 {
-    for (int row=0; row<5; row++)
+    cout << "Enter a size of pyramid" << endl;
+    int rowCount;
+    cin >> rowCount;
+    
+    for (int row=0; row<rowCount; row++)
     {
         for (int col=0; col<row+1; col++)
         {
