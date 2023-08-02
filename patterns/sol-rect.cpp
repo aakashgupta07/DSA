@@ -2,9 +2,15 @@
 using namespace std;
 int main()
 {
-    for (int row=0; row<3; row++)
+    cout << "Enter a no. of rows" << endl;
+    int i;
+    cin >> i;
+    cout << "Enter a no. of columns" << endl;
+    int j;
+    cin >> j;
+    for (int row=0; row<i; row++)
     {
-        for (int col=0; col<8; col++)
+        for (int col=0; col<j; col++)
         {
             cout <<"* ";
         }
