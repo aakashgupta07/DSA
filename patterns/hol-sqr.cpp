@@ -2,11 +2,14 @@
 using namespace std;
 int main()
 {
-    for (int row=0; row<5; row++)
+    cout << "Enter a size of square" << endl;
+    int n;
+    cin >> n;
+    for (int row=0; row<n; row++)
     {
-        for (int col=0; col<5; col++)
+        for (int col=0; col<n; col++)
         {
-            if (row==0 || row==4 || col==0 || col==4)
+            if (row==0 || row==n-1 || col==0 || col==n-1)
             {
                 cout << "* ";
             }
