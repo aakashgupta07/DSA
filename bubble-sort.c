@@ -33,7 +33,7 @@ void bubble_sort(int a[MAX], int n)
       printf("\n");
       for(k=0;k<n;k++)
       {
-        printf("\tarray[%d]=%d",k,a[k]);
+        printf("\t%d",a[k]);
       }
     }
   }
