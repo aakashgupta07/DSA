@@ -27,7 +27,7 @@ void quick_sort(int a[],int first,int last)
 		for(int k=0;k<6;k++)
 	{
 		printf("%d",a[k]);
-		printf("\t");d
+		printf("\t");
 	}
 	printf("\n");
 	}
@@ -38,7 +38,7 @@ void quick_sort(int a[],int first,int last)
 }
 void main()
 {
-	int a[8],i;
+	int a[6],i;
 	for(i=0;i<6;i++)
 	{
 		printf("Enter the value of index %d ::",i);
